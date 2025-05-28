@@ -9,6 +9,8 @@ This is a capstone project that I have recently completed as part of the [Google
 
 The analysis follows the six steps of data analysis taught in the Google programme: Ask, Prepare, Process, Analyse, Share, and Act.
 
+Full details can be found in this [Markdown made using RStudio](https://github.com/daniel207pzd/Google-Data-Analytics-Capstone-Project-Bellabeat-Case-Study/blob/main/Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--Github-.md).
+
 ## Background
 Bellabeat was founded by Urška Sršen and Sando Mur in 2014. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on [their website](https://bellabeat.com/).
 
