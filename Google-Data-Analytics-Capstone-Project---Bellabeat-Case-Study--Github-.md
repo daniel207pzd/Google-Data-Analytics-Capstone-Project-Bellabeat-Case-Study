@@ -1169,11 +1169,13 @@ where I have also created a story to summarise key findings.
 
 ### Number of Users with Recorded Data
 
-![](No.%20of%20Engaged%20Users%20by%20Day.png) Using the user_types.csv
+![No  of Engaged Users by Day](https://github.com/user-attachments/assets/7fb7fe4b-8f92-44d6-b913-387e2d9088d8)
+Using the user_types.csv
 file exported from R, I proceeded to examine the proportion of user
 types in Tableau.
 
-![](User%20Types.png) **Observations**: Although there are 33 users
+![User Types](https://github.com/user-attachments/assets/642a888d-fb8d-49cd-8975-c3f437eceb56)
+ **Observations**: Although there are 33 users
 recorded in the dataset daily_activity_final, the number of users
 reflected for each calendar day was found to be decreasing. This means
 not all of the 33 users have used the tracker to record their activity
@@ -1183,8 +1185,9 @@ consistently logged their activity throughout the one-month period.
 
 ### Number of Steps
 
-![](Average%20Steps%20During%20the%20Day.png)
-![](Average%20Steps%20by%20Week%20Day.png) **Observations**: The
+![Average Steps During the Day](https://github.com/user-attachments/assets/acff7219-656f-4cfe-b9bb-6c64fd6aded7)
+
+![Average Steps by Week Day](https://github.com/user-attachments/assets/4727a994-f6a9-45b5-a4cc-14cf7ab9b7f1) **Observations**: The
 histogram ‘Average Steps During the Day’ shows that users are more
 active from 8 am to 8 pm, recording the most number of steps from 5 to 8
 pm, followed by 12 to 3 pm. These time periods seem to correspond to
@@ -1200,46 +1203,41 @@ active.
 ``` r
 ggplot(data=daily_activity_final, aes(x=total_steps, y=calories)) + geom_point(aes(colour = calories)) + geom_smooth(method = "gam", formula = y ~ s(x, bs = "cs"), colour="darkorange2") + labs(title="Total Steps vs. Calories Burnt", x="Total Steps", y="Calories Burnt", colour="Calories")+theme(plot.title = element_text(hjust=0.5))
 ```
-![image](https://github.com/user-attachments/assets/117f951a-6655-4d22-839b-bbcf65d9c9e8)
-![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
-
+![image](https://github.com/user-attachments/assets/1e4ebf57-014c-4282-b0f7-4081cbe8ef37)
 **Observations**: This visualisation indicates that with the greater
 number of steps, the greater the amount of calories is burnt, since
 logically, more energy is consumed with increased activity.
 
 ### Activity Patterns
 
-![](Average%20Activity%20Hours.png) **Observations**: The scatter plot
+![Average Activity Hours](https://github.com/user-attachments/assets/cfe0848d-a0d6-4c91-a9e5-c83896bef8b4) **Observations**: The scatter plot
 reveals the predominant portion of the users’ daily activities is
 heavily sedentary. This suggests that the users are mostly indoors and
 carrying out stationary activities like sitting or lying down. In terms
 of physical activity levels, users mostly carried out light-intensity
 activities.
 
-![](Average%20Total%20Intensity%20vs.%20Time.png) **Observations**:
-Similar to the earlier histogram ‘Average Steps During the Day,’ this
+![Average Total Intensity vs  Time](https://github.com/user-attachments/assets/1f03b33c-db3e-4c06-b445-fa5bace55252)
+**Observations**: Similar to the earlier histogram ‘Average Steps During the Day,’ this
 histogram indicates that users are most active between 5-8 pm, and
 fairly active between 12-3 pm. These time periods seem to correspond to
 users leaving work and having their lunch break respectively. Users may
 be using these times to go to the gym or spending time on longer walks.
 
-![](High%20Intensity%20Activities%20vs.%20Hours%20Asleep.png)
+![High Intensity Activities vs  Hours Asleep](https://github.com/user-attachments/assets/c9285be2-fe4c-454d-9882-f3dcf3a09e82)
 **Observations**: The scatter plot shows that majority of users who had
 5-9 h of sleep were found to be frequently involved in high intensity
 activities.
 
 ### Sleep
 
-![](No.%20of%20Hours%20Asleep%20by%20Day%20of%20the%20Week.png)
-
+![No  of Hours Asleep by Day of the Week](https://github.com/user-attachments/assets/e5a54f24-3040-42f6-bc46-097c38447b59)
 ``` r
 ggplot(data=daily_sleep_final, aes(x=total_time_in_bed, y=total_minutes_asleep)) + geom_point(aes(colour = total_minutes_asleep)) + geom_smooth(method = lm, colour="darkorange2") + labs(title="Total Time Asleep vs. Total Time in Bed", x="Total Minutes in Bed", y="Total Minutes Asleep", colour="Total Minutes Asleep")+theme(plot.title = element_text(hjust=0.5))
 ```
 
     ## `geom_smooth()` using formula = 'y ~ x'
 ![image](https://github.com/user-attachments/assets/c3ad378f-fdc8-4f74-9be6-c04441438865)
-
-![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
 **Observations**: There is a positive correlation between the time in
 bed and the time asleep. This means that in order to have good sleep
