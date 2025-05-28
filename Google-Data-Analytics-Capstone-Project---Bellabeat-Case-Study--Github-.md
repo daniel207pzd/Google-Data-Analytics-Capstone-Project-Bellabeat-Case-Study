@@ -1201,7 +1201,7 @@ active.
 ggplot(data=daily_activity_final, aes(x=total_steps, y=calories)) + geom_point(aes(colour = calories)) + geom_smooth(method = "gam", formula = y ~ s(x, bs = "cs"), colour="darkorange2") + labs(title="Total Steps vs. Calories Burnt", x="Total Steps", y="Calories Burnt", colour="Calories")+theme(plot.title = element_text(hjust=0.5))
 ```
 
-![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--Github-_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
+![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
 
 **Observations**: This visualisation indicates that with the greater
 number of steps, the greater the amount of calories is burnt, since
@@ -1238,7 +1238,7 @@ ggplot(data=daily_sleep_final, aes(x=total_time_in_bed, y=total_minutes_asleep))
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--Github-_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
 **Observations**: There is a positive correlation between the time in
 bed and the time asleep. This means that in order to have good sleep
