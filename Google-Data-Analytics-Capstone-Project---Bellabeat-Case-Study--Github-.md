@@ -1311,7 +1311,7 @@ Based on this analysis, I would propose the following recommendations:
   we can consider to have a feature on the Bellabeat app that allows
   users to specify a time they desire to go to sleep. The app can then
   notify the user some time before that time to prepare going to sleep.
-  Since users struggle to fall asleep, prompting them to
+  Since users struggle to fall asleep, prompting them to go to bed earlier than the set time can help users to fall asleep on time and have sufficient rest.
 
 - **Step and Activity Notifications**
 
