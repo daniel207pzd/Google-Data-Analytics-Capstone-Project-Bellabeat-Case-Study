@@ -1200,7 +1200,7 @@ active.
 ``` r
 ggplot(data=daily_activity_final, aes(x=total_steps, y=calories)) + geom_point(aes(colour = calories)) + geom_smooth(method = "gam", formula = y ~ s(x, bs = "cs"), colour="darkorange2") + labs(title="Total Steps vs. Calories Burnt", x="Total Steps", y="Calories Burnt", colour="Calories")+theme(plot.title = element_text(hjust=0.5))
 ```
-
+![image](https://github.com/user-attachments/assets/117f951a-6655-4d22-839b-bbcf65d9c9e8)
 ![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
 
 **Observations**: This visualisation indicates that with the greater
@@ -1237,6 +1237,7 @@ ggplot(data=daily_sleep_final, aes(x=total_time_in_bed, y=total_minutes_asleep))
 ```
 
     ## `geom_smooth()` using formula = 'y ~ x'
+![image](https://github.com/user-attachments/assets/c3ad378f-fdc8-4f74-9be6-c04441438865)
 
 ![](Google-Data-Analytics-Capstone-Project---Bellabeat-Case-Study--GitHub-_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
