@@ -28,6 +28,8 @@ To identify and analyse trends in smart device usage data in order to gain insig
 - MySQL for Data Cleaning
 - R and Tableau for Data Analysis and Data Visualisation
 
+Tableau visualisations can be found [here](https://public.tableau.com/views/GoogleDataAnalyticsCapstoneProject-BellabeatCaseStudyVisualisationsDanielPoe/BellabeatCapstoneProjectStory?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
 ## Dataset:
 The dataset is publicly available on [Kaggle](https://www.kaggle.com/arashnic/fitbit).
 
