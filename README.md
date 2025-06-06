@@ -16,21 +16,21 @@ Bellabeat was founded by Urška Sršen and Sando Mur in 2014. Collecting data on
 
 Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level recommendations for how these trends can inform Bellabeat's marketing strategy.
 
-## Business Task:
+## Business Task
 To identify and analyse trends in smart device usage data in order to gain insights into how consumers use non-Bellabeat smart devices. These insights will then guide the marketing strategy for the company.
 
-## Guiding Questions:
+## Guiding Questions
 1. What are some trends in smart device usage?
 2. How could these trends apply to Bellabeat customers?
 3. How could these trends help influence Bellabeat marketing strategy?
 
-## Tools Used:
+## Tools Used
 - MySQL for Data Cleaning
 - R and Tableau for Data Analysis and Data Visualisation
 
 Tableau visualisations can be found [here](https://public.tableau.com/views/GoogleDataAnalyticsCapstoneProject-BellabeatCaseStudyVisualisationsDanielPoe/BellabeatCapstoneProjectStory?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-## Dataset:
+## Dataset
 The dataset is publicly available on [Kaggle](https://www.kaggle.com/arashnic/fitbit).
 
 ## Posted in:
